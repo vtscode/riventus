@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 11693 8268"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#FEFEFE;stroke-width:83.3307;stroke-linecap:round;stroke-linejoin:round}
+    .str0 {stroke:#FEFEFE;stroke-width:69.4409;stroke-linecap:round;stroke-linejoin:round}
+    .fil4 {fill:none}
+    .fil7 {fill:url(#id10)}
+    .fil5 {fill:url(#id11)}
+    .fil0 {fill:url(#id12)}
+    .fil6 {fill:url(#id13)}
+    .fil1 {fill:url(#id14)}
+    .fil2 {fill:url(#id15)}
+    .fil3 {fill:url(#id16);fill-rule:nonzero}
+   ]]>
+  </style>
+    <clipPath id="id0">
+     <path d="M6143 23c2185,0 3955,1771 3955,3955 0,2184 -1770,3955 -3955,3955 -2184,0 -3955,-1771 -3955,-3955 0,-2184 1771,-3955 3955,-3955zm0 84c2138,0 3871,1733 3871,3871 0,2138 -1733,3871 -3871,3871 -2138,0 -3871,-1733 -3871,-3871 0,-2138 1733,-3871 3871,-3871z"/>
+    </clipPath>
+    <clipPath id="id1">
+     <path d="M6143 156c2111,0 3822,1711 3822,3822 0,2111 -1711,3822 -3822,3822 -2111,0 -3822,-1711 -3822,-3822 0,-2111 1711,-3822 3822,-3822z"/>
+    </clipPath>
+   <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="2888.34" y1="2691.1" x2="4879.66" y2="787.433" spreadMethod="repeat">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id3)" x="2879" y="726" width="2009" height="2027"/>
+   </mask>
+   <mask id="id4">
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="4483.01" y1="1467.54" x2="2740.26" y2="3032.2" spreadMethod="repeat">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id5)" x="2890" y="1212" width="1443" height="2075"/>
+   </mask>
+   <mask id="id6">
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" x1="7322.08" y1="932.575" x2="9475.97" y2="2616.24">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="0.45098" style="stop-opacity:0.501961; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id7)" x="7394" y="761" width="2009" height="2027"/>
+   </mask>
+   <mask id="id8">
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" x1="9536.72" y1="3078.35" x2="7806.06" y2="1491.67">
+   <stop offset="0" style="stop-opacity:1; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id9)" x="7950" y="1248" width="1443" height="2075"/>
+   </mask>
+  <linearGradient id="id10" gradientUnits="userSpaceOnUse" x1="9704.06" y1="1784.46" x2="2584.63" y2="9066.46">
+   <stop offset="0" style="stop-opacity:1; stop-color:#C75EA3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#5CC6D0"/>
+  </linearGradient>
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="10609.5" y1="-590.209" x2="1677.13" y2="8546.11">
+  </linearGradient>
+  <linearGradient id="id12" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="10765.1" y1="-749.343" x2="1521.55" y2="8705.24">
+  </linearGradient>
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="9751.61" y1="-1026.26" x2="2532.52" y2="6357.67">
+  </linearGradient>
+  <linearGradient id="id14" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="9877.31" y1="-1200.59" x2="2406.74" y2="6440.57">
+  </linearGradient>
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" xlink:href="#id10" x1="9828.09" y1="1708.06" x2="2460.67" y2="9243.71">
+  </linearGradient>
+  <linearGradient id="id16" gradientUnits="userSpaceOnUse" x1="4624.11" y1="5697.09" x2="7892.36" y2="2639.98">
+   <stop offset="0" style="stop-opacity:1; stop-color:#F5874F"/>
+   <stop offset="0.470588" style="stop-opacity:1; stop-color:#FABF7F"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FFF8AF"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_421854536">
+   <g>
+   </g>
+   <g style="clip-path:url(#id0)">
+    <g id="_421861904">
+     <g>
+      <g>
+       <path class="fil0" d="M733 23l10821 0c453,0 823,370 823,823l0 6264c0,452 -370,823 -823,823l-10821 0c-453,0 -824,-371 -824,-823l0 -6264c0,-453 371,-823 824,-823zm11565 5093c0,-1416 0,-2786 0,-4179 0,-447 -366,-813 -813,-813l-10686 0c-447,0 -813,366 -813,813l0 1729c7,68 59,280 418,365 3958,818 7929,1387 11894,2085zm-479 -23l-11841 -1992 0 3976c0,426 365,774 812,774l10663 0c446,0 812,-348 812,-774l0 -1631c-3,-45 -38,-269 -446,-353z"/>
+       <path class="fil1" d="M12014 5001c0,-1351 0,-2658 0,-3986 0,-427 -349,-776 -775,-776l-10194 0c-426,0 -775,349 -775,776l0 1648c7,65 56,268 398,349 3776,781 7564,1323 11346,1989z"/>
+       <path class="fil2" d="M11596 5111l-11330 -1898 0 3789c0,405 350,737 777,737l10203 0c427,0 776,-332 776,-737l0 -1555c-2,-42 -35,-256 -426,-336z"/>
+      </g>
+      <g>
+      </g>
+      <path class="fil3" d="M7979 3696c-81,191 -173,279 -276,262 -225,-41 -426,-74 -603,-100 -73,267 -146,527 -220,777 167,29 423,76 770,140 43,8 45,62 6,163 -71,197 -159,287 -265,270 -129,-17 -343,-55 -645,-110 -9,28 -86,294 -231,799 -11,33 -45,38 -102,15 -86,-69 -118,-149 -96,-238 55,-225 113,-435 174,-629 -149,-23 -488,-81 -1021,-176l-263 941c-14,32 -50,37 -107,14 -91,-69 -123,-148 -100,-239 48,-172 119,-428 214,-765 -140,-24 -354,-59 -641,-107 -62,-11 -67,-88 -16,-231 68,-179 151,-258 251,-238 124,25 304,58 541,100 47,-164 117,-422 210,-772 -139,-21 -360,-57 -667,-108 -62,-12 -66,-89 -15,-232 65,-179 147,-260 247,-242 134,29 327,66 579,114 36,-136 92,-346 168,-633 24,-54 73,-69 144,-44 92,54 122,131 93,230 -33,113 -84,280 -152,500 234,41 573,106 1017,192 50,-168 122,-430 217,-790 29,-53 75,-69 139,-45 90,54 120,130 91,229 -40,147 -103,364 -190,651 191,29 439,73 743,132 35,7 37,64 6,170zm-1132 116c-307,-61 -648,-126 -1021,-194 -56,229 -127,486 -211,772 232,46 569,113 1013,200 48,-170 121,-428 219,-778z"/>
+     </g>
+    </g>
+   </g>
+   <path class="fil4" d="M6143 23c2185,0 3955,1771 3955,3955 0,2184 -1770,3955 -3955,3955 -2184,0 -3955,-1771 -3955,-3955 0,-2184 1771,-3955 3955,-3955zm0 84c2138,0 3871,1733 3871,3871 0,2138 -1733,3871 -3871,3871 -2138,0 -3871,-1733 -3871,-3871 0,-2138 1733,-3871 3871,-3871z"/>
+   <g>
+   </g>
+   <g style="clip-path:url(#id1)">
+    <g>
+     <g id="_421855376">
+      <path class="fil5" d="M915 156l10457 0c437,0 795,358 795,796l0 6052c0,438 -358,796 -795,796l-10457 0c-438,0 -796,-358 -796,-796l0 -6052c0,-438 358,-796 796,-796zm11176 4922c0,-1369 0,-2692 0,-4038 0,-433 -354,-786 -786,-786l-10326 0c-432,0 -786,353 -786,786l0 1670c7,66 58,271 404,353 3825,791 7663,1340 11494,2015zm-463 -22l-11442 -1925 0 3842c0,411 353,747 784,747l10304 0c432,0 784,-336 784,-747l0 -1577c-2,-42 -36,-260 -430,-340z"/>
+      <path class="fil6" d="M11817 4967c0,-1306 0,-2568 0,-3853 0,-412 -338,-749 -750,-749l-9850 0c-412,0 -750,337 -750,749l0 1594c7,62 55,258 386,336 3648,755 7309,1279 10964,1923z"/>
+      <path class="fil7" d="M11413 5073l-10949 -1835 0 3662c0,392 338,713 751,713l9859 0c413,0 750,-321 750,-713l0 -1502c-2,-41 -34,-248 -411,-325z"/>
+     </g>
+    </g>
+   </g>
+   <path class="fil4" d="M6143 156c2111,0 3822,1711 3822,3822 0,2111 -1711,3822 -3822,3822 -2111,0 -3822,-1711 -3822,-3822 0,-2111 1711,-3822 3822,-3822z"/>
+  </g>
+  <path class="fil4 str0" style="mask:url(#id2)" d="M2914 2718c348,-893 1051,-1601 1940,-1958"/>
+  <path class="fil4 str1" style="mask:url(#id4)" d="M2932 3246c185,-812 671,-1524 1359,-1992"/>
+  <path class="fil4 str0" style="mask:url(#id6)" d="M9369 2753c-348,-892 -1050,-1601 -1940,-1957"/>
+  <path class="fil4 str1" style="mask:url(#id8)" d="M9351 3281c-185,-812 -671,-1524 -1359,-1992"/>
+ </g>
+</svg>

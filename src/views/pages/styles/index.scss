@@ -1,0 +1,10 @@
+.ant-carousel .slick-dots{
+  display: none !important;
+}
+.carousel-container{
+  height:67vh;
+  top:5.3em;
+  @media only screen and (max-width: 644px) {
+    top:15.3em; 
+  }
+}

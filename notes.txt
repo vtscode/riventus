@@ -1,0 +1,18 @@
+
+deploy on netifly or vercel
+
+portfolio : 
+>} https://ipusnas-dashboard.aksaramaya.id/
+>} https://awmi.co.id/
+>} https://dbc.hayuningindotech.id/
+>} https://hayuningindotech.id/
+>} https://weather-ventus.glitch.me/  ==> weather app
+>} https://chatapp-react.ventuscode.now.sh/ ==> simple chat app
+>} https://browsermedia.netlify.app/  ==> example recording and using camera
+>} https://clinicku.000webhostapp.com/ simple klinik management web
+>} http://eight-channel.surge.sh/ ==> simple mini audio player
+>} http://laughable-steel.surge.sh ==> landing page
+>} http://mean-payment.surge.sh/ ==> simple payment landing page 
+
+link skets design figma
+https://www.figma.com/file/aOwGqReLfQBDAWnQQHZq4a/Untitled?node-id=2%3A126
