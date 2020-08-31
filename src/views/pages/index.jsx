@@ -11,22 +11,27 @@ const Quotes = styled.div`
   bottom: 0;
   right: 26%;
   @media only screen and (max-width:600px){
-    top:7em;
+    top:50%;
     bottom:unset;
+    right:unset;
   }
 `;
 
 const App = () => {
-  const [state,setState] = React.useState({quote : '' });
+  const [state,setState] = React.useState({});
 
   const fetchQuotes = async() => {
-    // const resp = await fetch('https://thesimpsonsquoteapi.glitch.me/quotes');
-    // setState(state => ({...state, quote:result[0]}) );
-    const resp = await fetch('http://numbersapi.com/random/trivia');
-    const result = await resp.text();
-    console.clear();
-    console.log(resp);
-    setState(state => ({...state, quote:result}) );
+    try {
+      let dateNow = new Date();
+      const resp = await fetch(`https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&_=${dateNow.getTime()}`);
+      // items[items.length * Math.random() | 0]
+      const result = await resp.json();
+      console.clear();
+      console.log(result);
+      setState(state => ({...state, quote: result[result.length * Math.random() | 0] }) );
+    } catch (error) {
+      console.log(error?.message);
+    }
   };
 
   React.useEffect(() => {
@@ -34,7 +39,9 @@ const App = () => {
   },[]);
 
   return(<>
-    <Quotes><code>{state.quote}</code></Quotes>
+    <Quotes>
+      <code dangerouslySetInnerHTML={{__html:state?.quote?.content?.rendered}}></code>
+    </Quotes>
     <Header />
     <SliderContainer />
     <Footer />

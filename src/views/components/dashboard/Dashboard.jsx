@@ -8,6 +8,15 @@ import { Layout } from "antd";
 // import js from '../../../vendor/media/image/js.png';
 
 const Dashboard = () => {
+  const [displayIframe,setDisplayIframe] = React.useState(false);
+
+  React.useEffect(() => {
+    const widthScreen = window.screen.width;
+    if(widthScreen < 1000){
+      setDisplayIframe(true);
+    }
+  },[]);
+
   return(<Layout style={{backgroundColor:'coral'}}>
     {/* <Particles 
       params={{
@@ -74,16 +83,20 @@ const Dashboard = () => {
       },
       "retina_detect": false
       }}
-    /> */}
+    />*/}
     <Layout.Content style={{alignSelf:'center',zIndex:100}}>
       <iframe 
-        width="1013" 
-        height="620" 
         title="idx-live-channel"
         src="https://www.metube.id/live/IDXChannel" 
         frameBorder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowFullScreen></iframe>
+        allowFullScreen 
+        style={{
+          width:'100vw',
+          height:'80vh',
+          display : displayIframe ? 'none' : 'block'
+        }}
+      ></iframe>
     </Layout.Content>
   </Layout>);
 };
