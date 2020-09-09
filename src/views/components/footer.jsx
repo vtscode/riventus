@@ -84,9 +84,9 @@ export default () => {
             <li>
             <Button type='text' style={{color:'#fff'}}>Home</Button>
             </li>
-            <li>
+            {/* <li>
             <Button type='text' onClick={() => handleClickMenu('news')} style={{color:'#fff'}}>News</Button>
-            </li>
+            </li> */}
             <li>
             <Button type='text' onClick={() => handleClickMenu('about')} style={{color:'#fff'}}>About</Button>
             </li>
@@ -158,7 +158,7 @@ export default () => {
       >
       <Space>
         <Button type='text'>Home</Button>
-        <Button type='text' onClick={() => handleClickMenu('news')}>News</Button>
+        {/* <Button type='text' onClick={() => handleClickMenu('news')}>News</Button> */}
         <Button type='text' onClick={() => handleClickMenu('about')}>About</Button>
         <Button type='text' onClick={() => handleClickMenu('blog')}>Blog</Button>
         <Button type='text' onClick={() => handleClickMenu('work')}>Works</Button>

@@ -11,9 +11,7 @@ const Quotes = styled.div`
   bottom: 0;
   right: 26%;
   @media only screen and (max-width:600px){
-    top:50%;
-    bottom:unset;
-    right:unset;
+    bottom:5%;
   }
 `;
 

@@ -4,7 +4,7 @@ import { Layout } from "antd";
 
 export default () => {
   return (
-  <Layout style={{backgroundColor:'coral'}}>
+  <Layout>
     {/* <div>
       <Particles
         params={{
@@ -28,15 +28,15 @@ export default () => {
       />
     </div> */}
     <Layout.Content style={{alignSelf:'center'}}>
-      <iframe 
+      {/* <iframe 
         width="1013" 
         height="620" 
         title='billboard-korea'
-        // src="https://www.youtube.com/embed/SkIvAecWc5g" 
-        src="https://www.youtube.com/embed/qk34rlivriY" 
+        src="https://www.youtube.com/embed/SkIvAecWc5g" 
         frameBorder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowFullScreen></iframe>
+        allowFullScreen></iframe> */}
+      <iframe height="600" style={{width:'100vw',overflowX:'scroll'}} src="https://www.youtube.com/embed/qk34rlivriY" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </Layout.Content>
   </Layout>
   )

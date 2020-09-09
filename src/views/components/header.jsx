@@ -38,18 +38,18 @@ export default (props) => {
         <img src={MyLogo} alt="Riventus" width="15%" />
       </div>
       <div className="location-launcher fadeIn-element">
-        <Button type="text" onClick={() => setLoc(true)} style={{color:'whitesmoke'}}>Location</Button>
+        <Button type="text" onClick={() => setLoc(true)} style={{color:'whitesmoke',zIndex:11}}>Location</Button>
       </div>
       <div className="contact-launcher fadeIn-element">
-        <Button type="text" onClick={() => setcontact(true)} style={{color:'whitesmoke'}}>Resume</Button>
+        <Button type="text" onClick={() => setcontact(true)} style={{color:'whitesmoke',zIndex:11}}>Resume</Button>
       </div>
     </div>
     <Modal 
-      width="90vw"
+      width="100vw"
+      style={{ top: 10 }}
       visible={loc}
       onCancel={() => setLoc(false)}
       footer={null}
-      centered
     >
       <LoadingIframe>
       <iframe 
@@ -59,20 +59,18 @@ export default (props) => {
       </LoadingIframe>
     </Modal>
     <Modal 
-      width="90vw"
+      width="100vw"
+      style={{ top: 10 }}
       visible={contact}
       onCancel={() => setcontact(false)}
       footer={null}
-      centered
     >
-      <LoadingIframe>
-        <iframe 
-          src="https://docs.google.com/document/d/1Pd7HFO381fX1pFV9q4nlMYzYR_9bMULu/edit" 
-          style={{height:'90vh'}}
-          width="100%"
-          title="Resume Riventus"
-        ></iframe>
-      </LoadingIframe>
+      <iframe 
+        src="https://docs.google.com/document/d/1Pd7HFO381fX1pFV9q4nlMYzYR_9bMULu/edit" 
+        width="100%"
+        style={{height:'90vh'}} 
+        title="Resume Riventus"
+      ></iframe>
     </Modal>
   </>);
 };
