@@ -10,8 +10,10 @@ const Quotes = styled.div`
   z-index: 11;
   bottom: 0;
   right: 26%;
+  background-color: honeydew;
+  border-radius: .4em;
   @media only screen and (max-width:600px){
-    bottom:5%;
+    bottom:7%;
   }
 `;
 
