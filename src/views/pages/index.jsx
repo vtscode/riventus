@@ -24,10 +24,7 @@ const App = () => {
     try {
       let dateNow = new Date();
       const resp = await fetch(`https://quotesondesign.com/wp-json/wp/v2/posts/?orderby=rand&_=${dateNow.getTime()}`);
-      // items[items.length * Math.random() | 0]
       const result = await resp.json();
-      console.clear();
-      console.log(result);
       setState(state => ({...state, quote: result[result.length * Math.random() | 0] }) );
     } catch (error) {
       console.log(error?.message);
