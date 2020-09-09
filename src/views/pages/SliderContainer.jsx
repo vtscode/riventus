@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Carousel } from 'antd';
-import Dashboard from "../components/dashboard/Dashboard";
+// import Dashboard from "../components/dashboard/Dashboard";
 import styled from 'styled-components';
-// import Dashboard2 from "../components/dashboard/Dashboard2";
+import Dashboard2 from "../components/dashboard/Dashboard2";
 // import Dashboard3 from "../components/dashboard/Dashboard3";
 const Wrapper = styled.div`
   display: block;
@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 const SliderContainer = () => {
   return (<>
   <Wrapper>
-    <Dashboard />
+    <Dashboard2 />
   </Wrapper>
   {/* <Carousel autoplay className="carousel-container">
     <div>

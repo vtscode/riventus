@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { message } from 'antd';
 
-export const newsAPIKey = process.env.REACT_APP_NEWSAPI_KEY;
-export const newsAPIUrl = process.env.REACT_APP_NEWSAPI_URL;
+export const newsAPIKey = process.env.REACT_APP_NEWSAPI_KEY ?? 'c046efa0f0fd453ab01aaf7a3c44676e';
+export const newsAPIUrl = process.env.REACT_APP_NEWSAPI_URL ?? 'https://newsapi.org/v2/';
 export const githubAPIUrl = process.env.REACT_APP_GITHUB_API;
 
 const handlingErrorResp = err => {

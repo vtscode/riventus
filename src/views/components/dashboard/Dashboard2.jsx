@@ -32,7 +32,8 @@ export default () => {
         width="1013" 
         height="620" 
         title='billboard-korea'
-        src="https://www.youtube.com/embed/SkIvAecWc5g" 
+        // src="https://www.youtube.com/embed/SkIvAecWc5g" 
+        src="https://www.youtube.com/embed/qk34rlivriY" 
         frameBorder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowFullScreen></iframe>
