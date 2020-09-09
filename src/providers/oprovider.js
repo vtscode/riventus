@@ -11,7 +11,7 @@ const headers = {
 export default {
   cancel : () => axios.CancelToken.source().cancel(),
   newsapi : (resource) => {
-    return request.get(`${newsAPIUrl}${resource}`,{"X-Api-Key": newsAPIKey});
+    return request.get(`${newsAPIUrl}${resource}&apiKey=${newsAPIKey}`,{});
   },
   list: (resource) => {
     return request.get(`${resource}`);
