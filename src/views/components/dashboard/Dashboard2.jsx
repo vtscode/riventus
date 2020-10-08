@@ -28,7 +28,9 @@ export default () => {
       />
     </div> */}
     <Layout.Content style={{alignSelf:'center'}}>
-      {/* <iframe 
+      {/* 
+      deep legacy live stream youtube
+      <iframe 
         width="1013" 
         height="620" 
         title='billboard-korea'
@@ -36,7 +38,7 @@ export default () => {
         frameBorder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowFullScreen></iframe> */}
-      <iframe height="600" style={{width:'100vw',overflowX:'scroll'}} src="https://www.youtube.com/embed/lCiaS5vRGgQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe height="600" style={{width:'100vw',overflowX:'scroll'}} src="https://www.youtube.com/embed/apNsOEb7umE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </Layout.Content>
   </Layout>
   )
