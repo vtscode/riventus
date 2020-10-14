@@ -38,7 +38,7 @@ export default () => {
         frameBorder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowFullScreen></iframe> */}
-      <iframe height="600" style={{width:'100vw',overflowX:'scroll'}} src="https://www.youtube.com/embed/apNsOEb7umE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+      <iframe height="600" style={{width:'100vw',overflowX:'scroll'}} src="https://www.youtube.com/embed/IsJo_jFdjXU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </Layout.Content>
   </Layout>
   )
