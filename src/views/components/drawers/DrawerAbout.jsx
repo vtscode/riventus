@@ -1,6 +1,6 @@
 import React from "react";
 import DrawerContainer from "./DrawerContainer";
-import mypict from "../../../vendor/media/image/mypict.jpeg";
+import mypict from "vendor/media/image/mypict.jpeg";
 import { Typography } from "antd";
 import '../styles/drwabout.scss';
 

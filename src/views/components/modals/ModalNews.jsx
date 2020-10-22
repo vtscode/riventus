@@ -1,6 +1,6 @@
 import React from 'react';
 import { Modal } from "antd";
-import LoadingIframe from "../../../components/LoadingIframe";
+import LoadingIframe from "components/LoadingIframe";
 
 export default props => {
   const { modalDetailNews,setmodalDetailNews } = props;

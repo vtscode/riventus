@@ -3,7 +3,7 @@ import { Button,Modal } from "antd";
 import MyLogo from "../../vendor/media/image/mylogo.svg";
 import LoadingIframe from "../../components/LoadingIframe";
 
-export default (props) => {
+export default () => {
   const [loc,setLoc] = React.useState(false);
   const [contact,setcontact] = React.useState(false);
 

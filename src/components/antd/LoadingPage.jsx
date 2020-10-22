@@ -1,5 +1,4 @@
 import React from 'react';
-// import LoadingSpin from './LoadingSpin';
 import LoadingGif from '../../vendor/media/image/loading.gif';
 import { Result } from 'antd';
 

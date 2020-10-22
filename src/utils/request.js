@@ -12,8 +12,6 @@ const handlingErrorResp = err => {
 };
 
 const getHeaders = {
-  // 'Accept': 'application/vnd.api+json',
-  // 'Content-Type': 'application/vnd.api+json',
   'Access-Control-Allow-Origin': true,
 };
 
@@ -24,42 +22,6 @@ const getOption = (method, url, headers, data) => {
 const app = {
   get: async (url,headers) => {
     const option = getOption('get', url,headers);
-    try {
-      const { data } = await axios.request(option);
-      return data;
-    } catch (err) {
-      handlingErrorResp(err);
-    }
-  },
-  post: async (url, headers, params) => {
-    const option = getOption('post', url, headers, params);
-    try {
-      const { data } = await axios.request(option);
-      return data;
-    } catch (err) {
-      handlingErrorResp(err);
-    }
-  },
-  patch: async (url, headers, params) => {
-    const option = getOption('patch', url, headers, params);
-    try {
-      const { data } = await axios.request(option);
-      return data;
-    } catch (err) {
-      handlingErrorResp(err);
-    }
-  },
-  put: async (url, headers, params) => {
-    const option = getOption('put', url, headers, params);
-    try {
-      const { data } = await axios.request(option);
-      return data;
-    } catch (err) {
-      handlingErrorResp(err);
-    }
-  },
-  delete: async (url, headers, params) => {
-    const option = getOption('delete', url, headers, params);
     try {
       const { data } = await axios.request(option);
       return data;

@@ -1,11 +1,11 @@
 import React from "react";
 import { Layout } from "antd";
 // import Particles from 'react-particles-js';
-// import reactlogo from '../../../vendor/media/image/react.png';
-// import html from '../../../vendor/media/image/html.png';
-// import npm from '../../../vendor/media/image/npm.svg';
-// import css from '../../../vendor/media/image/css.png';
-// import js from '../../../vendor/media/image/js.png';
+// import reactlogo from 'vendor/media/image/react.png';
+// import html from 'vendor/media/image/html.png';
+// import npm from 'vendor/media/image/npm.svg';
+// import css from 'vendor/media/image/css.png';
+// import js from 'vendor/media/image/js.png';
 
 const Dashboard = () => {
   const [displayIframe,setDisplayIframe] = React.useState(false);

@@ -7,7 +7,7 @@ import DrawerWork from "./drawers/DrawerWork";
 import DrawerAbout from "./drawers/DrawerAbout";
 import DrawerContainer from "./drawers/DrawerContainer";
 import "./styles/footer.style.scss";
-import oProvider from "../../providers/oprovider";
+import oProvider from "providers/oprovider";
 import moment from 'moment';
 
 export const DataFooter = React.createContext({});
