@@ -10,7 +10,7 @@ export default () => {
         height="600" 
         title="framingyt"
         style={{width:'100vw',overflowX:'scroll'}} 
-        src="https://www.youtube.com/embed/KMdS1SLFR4s" 
+        src="https://www.youtube.com/embed/5qap5aO4i9A" 
         frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowFullScreen></iframe>
     </Layout.Content>
