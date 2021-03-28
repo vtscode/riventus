@@ -48,7 +48,7 @@ export default () => {
         <Button type="text" onClick={() => setcontact(true)} style={styling.one}>Resume</Button>
       </div>
       <div className="contact-launcher fadeIn-element">
-        <Button type="text" ><img src={MyLogo} alt="Riventus" style={styling.one} /> LOGO</Button>
+        <Button type="text" style={styling.one}><img src={MyLogo} alt="Riventus"/></Button>
       </div>
       <div className="location-launcher fadeIn-element">
         <Button type="text" onClick={() => setLoc(true)} style={styling.one}>Location</Button>
