@@ -6,6 +6,16 @@ import LoadingIframe from "../../components/LoadingIframe";
 export default () => {
   const [loc,setLoc] = React.useState(false);
   const [contact,setcontact] = React.useState(false);
+  
+  const styling = {
+    one : {
+      color:'whitesmoke',
+      zIndex:11
+    },
+    two : {
+      height : "90vh"
+    }
+  };
 
   return(<>
     <div className="border-top top-position">
@@ -35,13 +45,13 @@ export default () => {
         <a href="https://instagram.com/rhivent" target="_blank" rel="noopener noreferrer"><span className="ion-social-instagram"></span></a>
       </div>
       <div className="template-title fadeIn-element">
-        <img src={MyLogo} alt="Riventus" width="15%" />
-      </div>
-      <div className="location-launcher fadeIn-element">
-        <Button type="text" onClick={() => setLoc(true)} style={{color:'whitesmoke',zIndex:11}}>Location</Button>
+        <Button type="text" onClick={() => setcontact(true)} style={styling.one}>Resume</Button>
       </div>
       <div className="contact-launcher fadeIn-element">
-        <Button type="text" onClick={() => setcontact(true)} style={{color:'whitesmoke',zIndex:11}}>Resume</Button>
+        <Button type="text" ><img src={MyLogo} alt="Riventus" style={styling.one} /> LOGO</Button>
+      </div>
+      <div className="location-launcher fadeIn-element">
+        <Button type="text" onClick={() => setLoc(true)} style={styling.one}>Location</Button>
       </div>
     </div>
     <Modal 
@@ -53,8 +63,8 @@ export default () => {
     >
       <LoadingIframe>
       <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.8848904299367!2d106.78510502514459!3d-6.250576019451617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f169ba5e95a3%3A0x4723c0d7ccc0bcab!2sMusholla%20Darussalam!5e0!3m2!1sid!2sid!4v1597650147798!5m2!1sid!2sid" 
-        frameBorder="0" width="100%" style={{border:0,height:'90vh'}} 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126907.03874925525!2d106.73203891920102!3d-6.2841018922236245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1ec2422b0b3%3A0x39a0d0fe47404d02!2sJakarta%20Selatan%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1616937970633!5m2!1sid!2sid" 
+        frameBorder="0" width="100%" style={{...styling.two, boder : 0}}
         allowFullScreen aria-hidden="false" tabIndex="0" title="Location Riventus"></iframe>
       </LoadingIframe>
     </Modal>
@@ -68,7 +78,7 @@ export default () => {
       <iframe 
         src="https://docs.google.com/document/d/1Pd7HFO381fX1pFV9q4nlMYzYR_9bMULu/edit" 
         width="100%"
-        style={{height:'90vh'}} 
+        style={{...styling.two}} 
         title="Resume Riventus"
       ></iframe>
     </Modal>
