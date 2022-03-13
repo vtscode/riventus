@@ -15,7 +15,12 @@ export default () => {
     },
     two : {
       height : "90vh"
-    }
+    },
+    imgpin: {
+      position: "absolute";
+      left: "10px";
+      top: "10px";
+    },
   };
 
   return(<>
@@ -53,7 +58,7 @@ export default () => {
       </div>
       <div className="location-launcher fadeIn-element">
         <Button type="text" onClick={() => setLoc(true)} style={styling.one}>
-          <img src={PinMap} alt="Riventus"/>
+          <img src={PinMap} alt="Riventus" style={styling.imgpin}/>
         </Button>
       </div>
     </div>
