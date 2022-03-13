@@ -17,10 +17,10 @@ export default () => {
       height : "90vh"
     },
     imgpin: {
-      position: "absolute";
-      left: "10px";
-      top: "10px";
-    },
+      position: "absolute",
+      left: "10px",
+      top: "10px"
+    }
   };
 
   return(<>
