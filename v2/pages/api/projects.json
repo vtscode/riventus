@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Smart App",
+    "image": "https://via.placeholder.com/285x142",
+    "description": "A website for a simple face recognition",
+    "tags": ["react", "html", "css"],
+    "source_code": "https://github.com/vtscode/smart-app",
+    "demo": "https://riventus-smart-app.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "Simple Dashboard",
+    "image": "https://via.placeholder.com/285x142",
+    "description": "A simple dashboard for admin panel",
+    "tags": ["react", "redux", "antd-ui"],
+    "source_code": "https://github.com/vtscode/dashboard-antdesign-riventus",
+    "demo": "https://riventus-dashboard.vercel.app/"
+  },
+  {
+    "id": 4,
+    "name": "Meme Generator",
+    "image": "https://via.placeholder.com/285x142",
+    "description": "An meme generator for fun",
+    "tags": ["react", "html", "css"],
+    "source_code": "https://github.com/vtscode/quote_generator",
+    "demo": "https://memegenreact.ventuscode.vercel.app/"
+  }
+]
