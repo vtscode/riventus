@@ -1,29 +1,38 @@
 [
   {
     "id": 1,
+    "name": "Wallet Crypto DApps",
+    "image": "https://i.ibb.co/sK22LLh/6-VV48-DJp-Hnh-Sdz-Js-Xky-Uy9h-XC8stkmo-u-X0-I8-N9b-Q1d-UBdm5-Obxds0-O2kxcdm-Xsy-I-w5120-h2880.png",
+    "description": "An Application for a save and transact crypto coin or token with AI Feature",
+    "tags": ["solidity", "dart", "flutter"],
+    "source_code": "https://play.google.com/store/apps/details?id=com.digiswap.aitrust&pli=1",
+    "demo": "https://play.google.com/store/apps/details?id=com.digiswap.aitrust&pli=1"
+  },
+  {
+    "id": 1,
+    "name": "NFT Marketplace DApps",
+    "image": "https://i.ibb.co/sRRZMYP/P6-MGq-Cz-Zk-ELg9q-F-8-Mw-KIR-m1-ZKev9-OFx-Ilzm-WX3-X-Rmfh-Eqwu-Nre-Uj-MYuorm-BWGo-w5120-h2880.png",
+    "description": "Marketplace application for NFT crypto",
+    "tags": ["solidity", "dart", "flutter"],
+    "source_code": "https://play.google.com/store/apps/details?id=com.digismart.marketplace",
+    "demo": "https://play.google.com/store/apps/details?id=com.digismart.marketplace"
+  },
+  {
+    "id": 10,
     "name": "Smart App",
-    "image": "https://via.placeholder.com/285x142",
+    "image": "https://i.ibb.co/hFvXyB0/smartapp.png",
     "description": "A website for a simple face recognition",
     "tags": ["react", "html", "css"],
     "source_code": "https://github.com/vtscode/smart-app",
     "demo": "https://riventus-smart-app.vercel.app/"
   },
   {
-    "id": 3,
-    "name": "Simple Dashboard",
-    "image": "https://via.placeholder.com/285x142",
-    "description": "A simple dashboard for admin panel",
-    "tags": ["react", "redux", "antd-ui"],
-    "source_code": "https://github.com/vtscode/dashboard-antdesign-riventus",
-    "demo": "https://riventus-dashboard.vercel.app/"
-  },
-  {
-    "id": 4,
-    "name": "Meme Generator",
-    "image": "https://via.placeholder.com/285x142",
-    "description": "An meme generator for fun",
+    "id": 11,
+    "name": "Weather App",
+    "image": "https://i.ibb.co/XCWLwYp/weatherapps.png",
+    "description": "Weather Apps Generator",
     "tags": ["react", "html", "css"],
-    "source_code": "https://github.com/vtscode/quote_generator",
-    "demo": "https://memegenreact.ventuscode.vercel.app/"
+    "source_code": "https://weather-ventus.glitch.me/",
+    "demo": "https://weather-ventus.glitch.me/"
   }
 ]

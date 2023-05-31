@@ -5,6 +5,10 @@
   border-radius: 20px;
   cursor: pointer;
 }
+.image {
+  height: 100%;
+  min-height: 300px;
+}
 
 .card:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
